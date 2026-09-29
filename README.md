@@ -29,12 +29,12 @@ The security system raised a critical alert. A program called `ab.exe` was run o
 
 1. **First thing i did: firstly i noted the host ip \[172.16.17.88] and file hash\[0b486fe0503524cfe4726a4022fa6a68]**
 2. **Checking the reputation: Second process i did,checking the reputation of file hash in virus total,after checking its reputation in virus taotal it shows that 60/71 security vendors flagged this file as malicious.**
-3. **Checked what the security tool did (Endpoint Security): It said that the file was allowed and ran in host machine \[markpkd].**
+   ![VirusTotal hash check showing 60/71 vendors flagged the file as malicious](images/virustotal-hash-check.png)
+3. Checked what the security tool did (Endpoint Security): It said that the file was allowed and ran in host machine \[markpkd].**
 4. Contacting the attacker's sever: No it does not contacted the attacker's server.
 5. **The containment : I contain the host markpkd to stop the further malware spead**.
+   ![Endpoint Security page showing MarkPRD host contained](images/endpoint-containment.png)
 6. **Closed the alert**: True Positive and wrote my notes.
-
-### Indicators of Compromise (things to look for on other computers)
 
 |Type|Value|
 |-|-|
